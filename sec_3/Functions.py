@@ -1,13 +1,12 @@
-
 def my_sum(start, end):
     result = 0
     for i in range(start, end+1):
         result += i
     return result
-
-print(my_sum(10, 20))   
+print(my_sum(10, 20))   # 165
 def greet(name, country="Egypt"):
     print(name, "from", country)
-greet("Ali")            
+greet("Ali")           
+
 def f(*kids):
-    print(kids[2])        
+    print(kids[2])      

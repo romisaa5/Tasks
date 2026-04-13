@@ -1,9 +1,9 @@
 import numpy as np
 import matplotlib.pyplot as plt
-n = np.arange(-5, 6)
-u_n = np.zeros_like(n)
-u_n[n >= 0] = 1           # كل اللي >= 0 يبقى 1
-
+n = [-5, -4, -3, -2, -1, 0, 1, 2, 3, 4, 5]
+u_n = [0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1]
 plt.stem(n, u_n)
-plt.title("unit step")
+plt.title("unit step impulse")
+plt.xlabel('N')
+plt.ylabel('Amplitude')
 plt.show()

@@ -1,7 +1,7 @@
+
 a = 33; b = 200
 if b > a:
-    print("b أكبر من a")    
-elif a == b:
+    print("b أكبر من a")   
     print("متساويين")
 else:
     print("a أكبر")

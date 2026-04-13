@@ -1,6 +1,6 @@
 x = 5          
-y = "DSP"      
-z = 3.14         
+y = "DSP"       
+z = 3.14      
 
 print(type(x))  
 
