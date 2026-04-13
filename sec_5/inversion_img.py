@@ -3,10 +3,7 @@ from matplotlib import pyplot as plt
 
 gray_img = cv2.imread('robot.jpg', 0)
 
-# طريقة 1: طرح من 255
 inv_img1 = 255 - gray_img
-
-# طريقة 2: bitwise_not
 inv_img2 = cv2.bitwise_not(gray_img)
 
 plt.subplot(1, 3, 1)

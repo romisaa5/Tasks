@@ -24,7 +24,7 @@ transposed.save('output.jpg')
 im = Image.open("robot.jpg")
 
 rgb_im = im.convert('RGB')
-rgb_im.save('hourglass_new.jpg')
+rgb_im.save('robot_new.jpg')
 print("Image saved successfully ...")
 
 

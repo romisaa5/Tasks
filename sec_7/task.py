@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 
-image_path = "assets/5.jpg"
+image_path = "robot.jpg"
 image = Image.open(image_path).convert("RGB")
 image_array = np.array(image)
 inverted_array = 255 - image_array

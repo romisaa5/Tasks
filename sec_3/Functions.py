@@ -1,17 +1,13 @@
-# تعريف دالة بـ def
+
 def my_sum(start, end):
     result = 0
     for i in range(start, end+1):
         result += i
     return result
 
-print(my_sum(10, 20))   # 165
-
-# default argument
+print(my_sum(10, 20))   
 def greet(name, country="Egypt"):
     print(name, "from", country)
-greet("Ali")             # Ali from Egypt
-
-# *args → tuple من arguments
+greet("Ali")            
 def f(*kids):
-    print(kids[2])        # العنصر الثالث
+    print(kids[2])        

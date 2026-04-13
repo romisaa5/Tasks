@@ -2,7 +2,7 @@ from PIL import Image
 import matplotlib.pyplot as plt
 
 
-image_path = "assets/5.jpg"
+image_path = "robot.jpg"
 image = Image.open(image_path)
 
 

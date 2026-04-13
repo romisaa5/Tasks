@@ -2,7 +2,7 @@ from PIL import Image
 import numpy as np
 
 
-image_path = "assets/2.jpg"
+image_path = "robot.jpg"
 image1 = Image.open(image_path)
 image1.show()
 image = Image.open(image_path).convert("RGB")  
